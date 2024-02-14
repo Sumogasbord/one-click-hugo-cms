@@ -9,6 +9,7 @@
 	--grey-3: rgba(89, 87, 86, 1);
 	--grey-4: rgba(66, 64, 64, 1);
 	--black: rgba(43, 37, 35, 1);
+	--nocolour: rgba(255, 255, 255, 0);
 
 	/* Typography */
 	--font-family: neulis-sans, hiragino-kaku-gothic-pron, sans-serif;
@@ -32,6 +33,7 @@
 	--spacing-extra-extra-extra-large: 16rem;
 
 	/* Miscelaneous */
-	--border-radius: .25rem;
+	--border-radius: .75rem;
+	--border-radius-small: .35rem;
 	--hover-transition: all 150ms ease;
 }

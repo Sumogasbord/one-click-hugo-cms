@@ -5,4 +5,5 @@ img {
 /* Remove border-radiius from full-width images */
 img:not(.w-100) {
   border-radius: var(--border-radius);
+  box-shadow: var(--grey-3) 0px 10px 15px -12.5px, var(--grey-3) 0px 4px 6px -7.5px;
 }
