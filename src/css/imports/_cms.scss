@@ -1,31 +1,52 @@
 .cms {
 
 	/* Headings */
-	& h1, & h2, & h3, & h4, & h5, & h6 {
-		font-weight: var(--bold-font-weight);
-		line-height: 1.25;
+	& h1, & h2, & h3, & h4, & h5, & h6, & p {
     margin-bottom: var(--spacing-small);
+    word-spacing: var(--letter-spacing);
   }
 
   & h1 {
+	line-height: 1.25;
     font-size: 2.25rem;
+    letter-spacing: var(--letter-spacing-m);
+	font-weight: var(--bold-font-weight);
   }
 
   & h2 {
+	line-height: 1.25;
     font-size: 1.5rem;
+    letter-spacing: var(--letter-spacing-m);
+	font-weight: var(--bold-font-weight);
   }
 
   & h3 {
+	line-height: 1.25;
     font-size: 1.25rem;
+    letter-spacing: var(--letter-spacing-m);
+	font-weight: var(--bold-font-weight);
   }
 
   & h4 {
-    font-size: 1rem;;
+	line-height: 1.25;
+    font-size: 1rem;
+    letter-spacing: var(--letter-spacing-m);
+	font-weight: var(--bold-font-weight);
   }
 
   & h5 {
+	line-height: 1.25;
     font-size: .875rem;
+    letter-spacing: 0.05em;
+	font-weight: var(--bold-font-weight);
   }
+
+	/* Texts */
+	& p {
+		line-height: 1.5;
+		font-size: .9rem;
+		letter-spacing: var(--letter-spacing-l);
+	}
 
 	/* Images */
 	& img {
@@ -38,11 +59,10 @@
 
 	/* Links */
 	& a {
-		color: var(--primary);
 		transition: var(--hover-transition);
 		&:hover {
 			background-color: var(--highlight);
-			color: var(--black);
+			color: var(--gray-4);
 		}
 	}
 
@@ -61,11 +81,10 @@
 
 	& ul {
 		margin-left: 1.33rem;
+		list-style-type: disc;
 		& >li:before {
-			content: '✱';
 			left: -1.33rem;
 			position: absolute;
-			color: var(--primary);
 		}
 	}
 
@@ -74,14 +93,14 @@
 		margin-left: var(--spacing-medium);
 		counter-reset: i 0;
     & >li:before {
-      font-weight: 800;
+      font-weight: 500;
       left: var(--spacing-medium);
       margin-right: 1.33rem;
       position: relative;
       height: 100%;
       content: counter(i);
       counter-increment: i;
-      color: var(--primary);
+      color: var(--grey-4);
     }
 	}
 
@@ -89,9 +108,9 @@
   & blockquote {
     background-color: var(--grey-1);
     display: block;
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-small);
     padding: var(--spacing-medium);
-    color: var(--primary);
+    color: var(--black);
     font-weight: 700;
     font-size: 1.25rem;;
     margin-bottom: var(--spacing-medium);

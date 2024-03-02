@@ -1,6 +1,6 @@
 baseurl = "/"
-languageCode = "en-us"
-languageLang = "en"
+languageCode = "ja-jp"
+languageLang = "ja"
 title = "RooLone"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 

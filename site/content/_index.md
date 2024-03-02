@@ -14,7 +14,7 @@ intro:
     RooLoneではいろんなことを試しています。
     ここでは、その一部をご紹介します。
 products:
-  - image: img/misskey_full_logo.jpg
+  - image: img/misskey_og-image_big-logo.jpg
     text: >-
       "RooLone Hangout"は分散型SNSの一つである"Misskey"のサーバーである。
 

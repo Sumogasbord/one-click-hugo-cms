@@ -5,5 +5,5 @@ img {
 /* Remove border-radiius from full-width images */
 img:not(.w-100) {
   border-radius: var(--border-radius);
-  filter: drop-shadow(2.5px 2.5px 7.5px var(--shadow));
+  filter: drop-shadow(0px 0px 5px var(--shadow));
 }

@@ -10,18 +10,24 @@
 	--grey-4: rgba(102, 102, 101, 1);
 	--grey-5: rgba(56, 54, 54, 1);
 	--black: rgba(0, 0, 0, 1);
-	--shadow: rgba(66, 64, 64, 0.5);
+	--shadow: rgba(66, 64, 64, 0.35);
+	--shadow-l: rgba(66, 64, 64, 0.25);
+	--shadow-h: rgba(66, 64, 64, 0.5);
 
 	/* Typography */
-	--font-family: neulis-sans, hiragino-kaku-gothic-pron, sans-serif;
+	--font-family: neulis-sans, source-han-sans-japanese, sans-serif;
 	--line-height: 1.5;
 
-	--font-size: 18px;
-	--font-size-m: 20px;
-	--font-size-l: 22px;
+	--font-size: .8em;
+    --font-size-m: .9em;
+    --font-size-l: 1em;
 
 	--body-font-weight: 400;
 	--bold-font-weight: 700;
+
+	--letter-spacing: 0.025em;
+	--letter-spacing-m: 0.05em;
+	--letter-spacing-l: 0.075em;
 
 	/* Sizing */
 	--spacing-none: 0;
