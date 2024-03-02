@@ -1,14 +1,15 @@
 <div class="bg-off-white pv4 grey-5">
 	<div class="ph3 mw8 center">
 
-		<h2 class="f2 b lh-title mb3">Latest stories</h2>
+		<h2 class="f2 b lh-title mb3">備忘録を見てみる</h2>
 
 		<div class="w-100 flex-ns mhn1-ns flex-wrap mb3">
-			{{ range first 5 (where .Data.Pages "Type" "blog") }}
+			{{ range first 2 .Site.RegularPages.ByDate.Reverse }}
 				<div class="ph1-ns w-50-ns flex">
 					{{ .Render "li" }}
 				</div>
 			{{ end }}
+			</ul>
 		</div>
 
 		<div class="tc">
