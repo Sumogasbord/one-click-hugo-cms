@@ -2,6 +2,7 @@
 title: Hello! RooLone!
 date: 2024-02-26T15:31:24.526Z
 description: RooLone
+image: /img/og-image.jpg
 ---
 この度、RooLoneというWeb技術を試す実験スペースを作りました。
 
