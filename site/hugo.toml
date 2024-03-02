@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "ja-jp"
 languageLang = "ja"
-title = "RooLone"
+title = "RooLone Centre"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 [params]
