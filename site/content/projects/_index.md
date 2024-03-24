@@ -4,9 +4,9 @@ type: projects
 image: /img/products-jumbotron.jpg
 intro:
   heading: どんなことをしているの？
-  description: この "RooLone" では、 Sumögåsbord
+  description: 'この "RooLone" では、 Sumögåsbord
     が、独りほそぼそといろんなWeb技術を試しています。   新たなCMSを試したり、分散型SNSを試してみたり…
-    自分の知識と技術を高める目的で、いろいろと試しています。
+    自分の知識と技術を高める目的で、いろいろと試しています。 '
 main:
   heading: たとえば・・・
   description: >-
