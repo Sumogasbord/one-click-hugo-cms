@@ -32,6 +32,7 @@ export default class ValuesPreview extends React.Component {
           {values.map(({text, heading, imageUrl}, i) =>
             <MediaBlock key={i} text={text} heading={heading} imageUrl={imageUrl} reverse={i % 2 === 0} />
           )}
+          { widgetFor("body") }
         </div>
       </div>
     </div>;
