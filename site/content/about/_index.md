@@ -18,6 +18,8 @@ intro:
 
 ![Sumögåsbord](img/sumoga_prof.jpg "Sumögåsbord")
 
+Sumögåsbord
+
 Plainboxという旅行系サークルの創始者。\
 サークル内ではエンジニアとグラフィックデザイナーのようなことをしている。 2021年より分散型SNSでの活動を活発化。\
 "Mastodon"の運営をしつつ、2024年からは"Misskey"のサーバー管理から運営までを挑戦中。
