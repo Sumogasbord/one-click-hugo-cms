@@ -27,11 +27,9 @@ export default class ValuesPreview extends React.Component {
 
     return <div>
       <Jumbotron image={image} title={entry.getIn(["data", "title"])} />
+
       <div className="bg-off-white pv4">
         <div className="ph3 mw7 center">
-          <h2 className="f2 b lh-title mb2">{entry.getIn(["data", "intro", "heading"])}</h2>
-          <p className="mb4 mw6">{entry.getIn(["data", "intro", "description"])}</p>
-
           <div className="flex-ns flex-wrap mhn2-ns mb3">
             {(entry.getIn(["data", "intro", "blurbs"]) || []).map((blurb, index) => <div className="ph2-ns w-50-ns mb4" key={index}>
               <img src={blurb.get("image") && getAsset(blurb.get("image"))} alt="" className="center db mb3" style={{width: "240px"}}/>
@@ -39,13 +37,14 @@ export default class ValuesPreview extends React.Component {
             </div>)}
           </div>
         </div>
-
-        <div className="cms mw6">
-          <p>{ entry.getIn(["data", "description"]) }</p>
-          { image && <img src={ image } alt={ entry.getIn(["data", "title"])} /> }
-          { widgetFor("body") }
-        </div>
       </div>
+
+      <div className="cms mw6">
+        <p>{ entry.getIn(["data", "description"]) }</p>
+        { image && <img src={ image } alt={ entry.getIn(["data", "title"])} /> }
+        { widgetFor("body") }
+      </div>
+
     </div>;
   }
 }

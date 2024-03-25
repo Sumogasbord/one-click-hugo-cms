@@ -40,9 +40,8 @@ collections: # A list of collections the CMS should be able to edit
         label: "Projects Page"
         name: "projects"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
+          - {label: "Title", name: "title", widget: string}
+          - {label: "Image", name: "image", widget: image}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "site/content/about/_index.md"
         label: "About Page"
