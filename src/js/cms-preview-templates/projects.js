@@ -23,6 +23,12 @@ export default class ProductsPreview extends React.Component {
           </div>
         </div>
       </div>
+      
+      <div className="cms mw6">
+        <p>{ entry.getIn(["data", "description"]) }</p>
+        { image && <img src={ image } alt={ entry.getIn(["data", "title"])} /> }
+        { widgetFor("body") }
+      </div>
 
       <div className="mw7 center">
         <div className="mw6 ph3 mb3">
