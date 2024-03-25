@@ -2,7 +2,7 @@ import React from "react";
 
 import Jumbotron from "./components/jumbotron";
 
-export default class ProductsPreview extends React.Component {
+export default class ProjectsPreview extends React.Component {
   render() {
     const {entry, getAsset} = this.props;
     const image = getAsset(entry.getIn(["data", "image"]));

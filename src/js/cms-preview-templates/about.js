@@ -17,13 +17,10 @@ const MediaBlock = ({heading, text, imageUrl, reverse}) => {
   </div>;
 };
 
-export default class ValuesPreview extends React.Component {
+export default class AboutPreview extends React.Component {
   render() {
     const {entry, getAsset} = this.props;
-
     const image = getAsset(entry.getIn(["data", "image"]));
-    const entryValues = entry.getIn(["data", "values"]);
-    const values = entryValues ? entryValues.toJS() : [];
 
     return <div>
       <Jumbotron image={image} title={entry.getIn(["data", "title"])} />
@@ -44,7 +41,6 @@ export default class ValuesPreview extends React.Component {
         { image && <img src={ image } alt={ entry.getIn(["data", "title"])} /> }
         { widgetFor("body") }
       </div>
-
     </div>;
   }
 }
