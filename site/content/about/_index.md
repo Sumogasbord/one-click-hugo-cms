@@ -18,6 +18,9 @@ main: >-
   この "RooLone" は、Plainboxのサークル主である Sumögåsbord が、企画・運営をしています。 現時点では、サイト名らしく "Alone" でやっていくつもりです。 よろしくお願いします。
 
 
+  ## Sumögåsbord 
+
+
   ![Sumögåsbord ](img/sumoga_prof.jpg "Sumögåsbord ")
 
 
