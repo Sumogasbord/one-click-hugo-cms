@@ -29,8 +29,8 @@ export default class ValuesPreview extends React.Component {
       <Jumbotron image={image} title={entry.getIn(["data", "title"])} />
       <div className="bg-off-white pv4">
         <div className="mw7 center ph3 pt4">
-          {values.map(({text, heading, imageUrl}, i) =>
-            <MediaBlock key={i} text={text} heading={heading} imageUrl={imageUrl} reverse={i % 2 === 0} />
+          {values.map(({markdown, imageUrl}, i) =>
+            <MediaBlock key={i} markdown={markdown} imageUrl={imageUrl} reverse={i % 2 === 0} />
           )}
         </div>
       </div>
