@@ -17,7 +17,6 @@ export default class AboutPreview extends React.Component {
               <img src={blurb.get("image") && getAsset(blurb.get("image"))} alt="" className="center db mb3" style={{width: "240px"}}/>
               <p>{blurb.get("text")}</p>
             </div>)}
-            { widgetFor("body") }
           </div>
         </div>
       </div>
