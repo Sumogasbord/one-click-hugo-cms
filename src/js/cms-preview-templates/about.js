@@ -13,9 +13,9 @@ export default class AboutPreview extends React.Component {
       <div className="bg-off-white pv4">
         <div className="ph3 mw7 center">
           <div className="flex-ns flex-wrap mhn2-ns mb3">
-            {(entry.getIn(["data", "body"]) || []).map((blurb, index) => <div className="ph2-ns w-50-ns mb4" key={index}>
-              <img src={blurb.get("image") && getAsset(blurb.get("image"))} alt="" className="center db mb3" style={{width: "240px"}}/>
-              <p>{blurb.get("body")}</p>
+            {(entry.getIn(["data", "body"]) || []).map((body, index) => <div className="ph2-ns w-50-ns mb4" key={index}>
+              <img src={body.get("image") && getAsset(body.get("image"))} alt="" className="center db mb3" style={{width: "240px"}}/>
+              <p>{body.get("markdown")}</p>
             </div>)}
           </div>
         </div>
